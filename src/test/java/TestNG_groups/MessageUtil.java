@@ -1,4 +1,4 @@
-package TestNG;
+package TestNG_groups;
 
 
     public class MessageUtil {
@@ -14,7 +14,7 @@ package TestNG;
         }
 
         public String salutationMessage() {
-            message = "tutorialspoint" + message;
+            message = "facebook" + message;
             System.out.println(message);
             return message;
         }

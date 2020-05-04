@@ -1,0 +1,161 @@
+{
+ "orderNumber": "98733452",
+ "versionNumber": 2,
+ "companyId": "1",
+ "banner": "SAFEWAY",
+ "storeNumber": "1574",
+ "orderCreatedDate": "2019-09-04T13:54:26.376Z",
+ "messageAction": "CREATED",
+ "fulfillmentSystem":"MANHATTEN",
+ 
+ 
+ "sourceInfo": {
+  "source": "ECOMMERCE",
+  "enteredBy": "CUSTOMER",
+  "deviceType": "WEB"
+ },
+ 
+ 
+ 
+ "orderTotal": {
+  "amount": 63.29,
+  "currency": "USD"
+ },
+ "customer": {
+  "customerId": "2345366",
+  "customerGuid": "111222333",
+  "clubCardNumber": "3425563673",
+  "isSubscription": true,
+  "name": {
+   "firstName": "John",
+   "middleName": "",
+   "lastName": "Doe"
+  },
+  "address": [
+   {
+    "addressType": "SHIP-TO",
+    "addressLine1": "1111 Broadway",
+    "addressLine2": "Suite 1000",
+    "addressLine3": "",
+    "city": "Oakland",
+    "state": "CA",
+    "zipCode": "94588",
+    "country": "US"
+   }
+  ],
+  "contact": [
+   {
+    "number": "9258889999",
+    "type": "MOBILE"
+   }
+  ],
+  "email": [
+   {
+    "id": "johndoe@example.com",
+    "type": "PERSONAL"
+   }
+  ],
+  "preference": {
+   "termsCheckedVersionId": "4",
+   "optIn": [
+    {
+     "type": "text",
+     "id": "9258007896",
+     "isOptin": true
+    },
+    {
+     "type": "email",
+     "id": "johndoe@example.com",
+     "isOptin": true
+    }
+   ]
+  }
+ },
+ "paymentDetails": [
+  {
+   "paymentType": "CREDITCARD",
+   "paymentSubType": "VISA",
+   "tokenNumber": "2345234567853456",
+   "cardExpiryMonth": "02",
+   "cardExpiryYear": "2019",
+   "zipcode": "94536",
+   "securityCode": "1",
+   "reqAuthorizationAmount": "124.34",
+   "address": {
+    "addressType": "BILL-TO",
+    "addressLine1": "1111 Broadway",
+    "addressLine2": "Suite 1000",
+    "addressLine3": "",
+    "city": "Oakland",
+    "state": "CA",
+    "zipCode": "94588",
+    "country": "US"
+   },
+   "paymentStatus": {
+    "status": "AUTHORIZED",
+    "authorizationCode": "1345F3",
+    "authorizationDate": ""
+   }
+  }
+ ],
+ "subOrders": [
+  {
+   "subOrderNumber": 1,
+   "fulfillmentType": "DELIVERY",
+   "deliveryInfo": {
+    "deliverySubType": "RESIDENTIAL",
+    "deliveryServiceType": "ATTENDED",
+    "slotInfo": {
+     "slotType": "ONEHR",
+     "slotPlan": "STANDARD",
+     "slotId": "234",
+     "timeZone": "America/Los_Angeles",
+     "startTime": "2019-09-06T00:00:00.000Z",
+     "endTime": "2019-09-07T19:00:00.000Z",
+     "shiftNumber": "08",
+     "editingCutoffDate": "2019-03-15T13:54:26.376Z"
+    },
+    "instructions": "leave package at the door",
+    "pickupInfo": {
+     "locationType": "STORE",
+     "locationId": "1211",
+     "shortOrderNumber": 4
+    },
+    "stageByDateTime": "2019-09-06T13:54:26.376Z"
+   },
+   "charges": [
+    {
+     "id": "0000000022155",
+     "name": "Delivery Charge",
+     "category": "Shipping",
+     "chargeAmount": {
+      "amount": 3.95,
+      "currency": "USD"
+     }
+    }
+   ],
+   "promoCodes": [
+    {
+     "code": "SDAFERT3425",
+     "description": "Buy 1 Get 1 Free"
+    }
+   ],
+   "orderLines": [
+    {
+     "itemId": "289052285",
+     "itemDescription": "Signature SELECT Juice Apple - 64 Fl. Oz.",
+     "orderedQuantity": 10,
+     "unitOfMeasure": "EACH",
+     "unitPrice": {
+      "amount": 9.9,
+      "currency": "USD"
+     },
+     "substitutionCode": "ABC",
+     "substitutionValue": "Same Size Diff Brand",
+     "isRegulatedItem": true,
+     "comments": "These are comments for OrderItem"
+    }
+   ]
+  }
+ ]
+}
